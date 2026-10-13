@@ -1,0 +1,10 @@
+# model weights and mid-run checkpoints stay on Drive
+*.h5
+ckpt_*/
+buffer.npz
+tmp_*
+# notebook / python junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
