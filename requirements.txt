@@ -4,3 +4,4 @@ tf_keras
 numpy
 pandas
 matplotlib
+threadpoolctl
