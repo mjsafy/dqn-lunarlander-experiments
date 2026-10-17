@@ -1,0 +1,9 @@
+id,claim,alternative,n_units,estimate,ci95_low,ci95_high,seed_spread,p_raw,p_holm,verdict
+H3,"greedy return decline after the training-return peak, unsolved baseline runs",greater,18.0,8.903861345070295,-4.144678352243307,23.310722358945597,16.912192488763093,0.12430572509765625,0.7458343505859375,not supported at this sample size
+H5,"greedy return decline after solving, solved baseline runs",greater,6.0,-34.14962388730158,-67.38116430038197,-8.751353129324594,39.71408938433866,0.984375,1.0,not supported at this sample size
+H6,buffer 1M vs 100k: change in final greedy return,greater,9.0,-2.723107599224357,-33.38700762100696,27.84100492967987,14.473573343888283,0.576171875,1.0,not supported at this sample size
+H7,gamma-consistent shaping: change in final greedy return,greater,9.0,-222.38318694465804,-353.6710479731267,-101.64925220771404,14.473573343888283,0.99609375,1.0,not supported at this sample size
+H8,time limit as terminal: change in time-limit share,two-sided,9.0,0.053333333333333344,-0.08555555555555555,0.21777777777777782,0.11532562594670798,0.5390625,1.0,not supported at this sample size
+H9,Huber loss: change in final greedy return,greater,9.0,-1.1930561204292813,-22.319552473840556,16.430022271355117,14.473573343888283,0.541015625,1.0,not supported at this sample size
+H1,gamma threshold replicated,,,,,,,,,replicated
+H2,failing runs end at the time limit,,,,,,,,,supported

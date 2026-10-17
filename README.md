@@ -6,6 +6,7 @@ Independent DQN implementation (TensorFlow/Keras, plus a NumPy re-implementation
 |---|---|---|---|---|
 | 01 | How does the discount factor `gamma` affect learning? | [01_gamma_sweep](notebooks/01_gamma_sweep.ipynb) | [results](results/01_gamma_sweep/README.md) | done (1 seed) |
 | 02 | Where does DQN training time go on a CPU, and how much faster can it be made? | [02_performance_profiling](notebooks/02_performance_profiling.ipynb) | [results](results/02_performance_profiling/README.md) | done (validation: 3 seeds) |
+| 03 | What actually goes wrong at low discount factors? (behaviour diagnostics, four single-change interventions, 3 seeds) | [03_diagnostics](notebooks/03_diagnostics.ipynb) | [results](results/03_diagnostics/README.md) | done (3 seeds) |
 
 ## Layout
 - `notebooks/`: one notebook per experiment (`NN_<name>.ipynb`)
